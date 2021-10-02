@@ -40,6 +40,7 @@
 | Payoja Muduli                                          | Web Developer            |
 | Md. Almas Ali                                          | Web Developer            |
 | Coding-Boon                                            | Learn Python             |
+| Shubhang Gupta                                         | Music                    |
 | _Your Name Here_                                       | _What do you love?_      |
 
  
