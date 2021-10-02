@@ -30,7 +30,7 @@
 | Jagadeesh                                              | Web Developer            |
 | Sagnik Chatterjee                               | Web dev,Programming,Data Science|
 | HCTN 02                                                | Web Developer            |
-| _Your Name Here_                                       | _What do you love?_      |
+| Ridam Hazra                                                  | Data Analysis |
 
 
 
