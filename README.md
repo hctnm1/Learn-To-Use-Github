@@ -26,9 +26,11 @@
 | Prashant Ved                                           | Web Development          |
 | Kaustuv Chattopadhyay                                  | Competetitive Programming|
 | Namrutha Hari                                          | Fullstack Developer      |
-| Danar Putra                                 | Web Developer and Android Developer |
+| Danar Putra                                            | Web Developer and Android|
+                                                                          Developer |
 | Jagadeesh                                              | Web Developer            |
-| Sagnik Chatterjee                               | Web dev,Programming,Data Science|
+| Sagnik Chatterjee                                      | Web dev,Programming,Data |
+                                                                             Science|
 | HCTN 02                                                | Web Developer            |
 | Pratik Jangale                                         | programming              |
 | Bil Abror                                              | Backend Developer        |
