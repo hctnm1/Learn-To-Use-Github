@@ -40,7 +40,8 @@
 | Payoja Muduli                                          | Web Developer            |
 | Md. Almas Ali                                          | Web Developer            |
 | Coding-Boon                                            | Learn Python             |
-| _Your Name Here_                                       | _What do you love?_      |
+| Riti Kumari                                            | Web Development          |
+| _Your Name Here_                                       | _What do you love?_ |
 
  
 
