@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notary - Word Finder</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrat CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Main Content Area -->
+            <div class="col-md-8">
+                <img src="images/img1.png" class="responsive">
+                <div class="card mb-4">
+                    <h2 class="card-header" id="fileName">Book Title</h2>
+                    <div class="card-body">
+                        <div class="displayBox scroll-box" id="fileContent">
+                            Select a book on the right
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <a href="https://github.com/trip0le" target="_blank">Visit trip0le</a>
+                    </div>
+                </div>
+            </div>
+            <!-- SideBar Content -->
+            <div class="col-md-4">
+                <!-- Search Widget -->
+                <div class="card my-4">
+                    <h5 class="card-header">Search</h5>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="keyword" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-secondary" type="button" onclick="performMark()">Search</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-footer" id="searchstat">
+                    </div>
+                </div>
+                <!-- Select a Book Widget -->
+                <div class="card my-4">
+                    <h5 class="card-header">Select A Book</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a href="#" onclick="loadBook('book1.txt', 'Harry Potter')">Harry Potter</a></li>
+                                    <li><a href="#" onclick="loadBook('book2.txt', 'Alice in Wonderland')">Alice in Wonderland</a></li>
+                                    <li><a href="#" onclick="loadBook('book3.txt', 'Lord of the Rings')">Lord of the Rings</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <!-- Most Used Words -->
+                <div class="card my-4">
+                    <h5 class="card-header">Most Used Words</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="list-unstyled" id="mostUsed">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my-4">
+                    <h5 class="card-header">Least Used Words</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="list-unstyled" id="leastUsed">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my-4">
+                    <h5 class="card-header">Document Stats</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="list-unstyled" id="docStats">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script id="template-ul-items" type="text/template">
+        <li>
+            {{val}}
+        </li>
+    </script>
+
+    <!-- backend of notary -->
+    <script src="script.js"></script>
+
+    <!-- jQuery, Popper .js, Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
