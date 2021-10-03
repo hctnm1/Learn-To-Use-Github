@@ -40,7 +40,7 @@
 | Payoja Muduli                                          | Web Developer            |
 | Md. Almas Ali                                          | Web Developer            |
 | Coding-Boon                                            | Learn Python             |
-| _Your Name Here_                                       | _What do you love?_      |
+|react-ions                                       | Web Development     |
 
  
 
