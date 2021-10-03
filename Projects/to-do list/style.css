@@ -1,0 +1,124 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom,#68EACC 0%, #497BE8 100%) ;
+}
+
+.wrapper{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background: tomato;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.wrapper header{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.wrapper .inputField{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.inputField input{
+    outline: none;
+    width: 85%;
+    height: 100%;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+.inputField button{
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #8E49E8;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.inputField button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrapper .todoList{
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.todoList li{
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    cursor: default;
+    overflow: hidden;
+}
+
+.todoList li span{
+    position: absolute;
+    right: -45px;
+    color: white;
+    width: 45px;
+    text-align: center;
+    border-radius: 0 3px 3px 0;
+    background: #e74c43;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.todoList li:hover span{
+    right: 0px;
+}
+
+.wrapper .footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.footer button{
+    border: none;
+    outline: none;
+    background: #8E49E8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px 10px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.footer button .active{
+    opacity: 1;
+    pointer-events: auto;
+} */
