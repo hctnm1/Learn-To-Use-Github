@@ -40,6 +40,7 @@
 | Payoja Muduli                                          | Web Developer            |
 | Md. Almas Ali                                          | Web Developer            |
 | Coding-Boon                                            | Learn Python             |
+| Harsh Bartariya                                        | Programming and cybersecurity |
 | _Your Name Here_                                       | _What do you love?_      |
 
  
