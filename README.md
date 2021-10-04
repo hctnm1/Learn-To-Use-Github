@@ -40,6 +40,7 @@
 | Payoja Muduli                                          | Web Developer            |
 | Md. Almas Ali                                          | Web Developer            |
 | Coding-Boon                                            | Learn Python             |
+| Jill Oestreicher                                       | IT                       |
 | _Your Name Here_                                       | _What do you love?_      |
 
  
