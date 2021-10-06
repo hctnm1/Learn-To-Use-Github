@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| Sumith Kumar S                                         | Python, Django, Java     |
 | _Your Name_                                            | _Intrests_               |
  
 
