@@ -1,0 +1,71 @@
+<!-- TODO List By: Prateek Chaurasia -->
+<!-- Github: https://github.com/prateek18801 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./res/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./res/style.css">
+    <title>Todo-List</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Todo List</h1>
+    </header>
+    <!-- controls -->
+    <div class="form">
+        
+        <!-- filter -->
+        <div class="filter">
+            <span class="material-icons-outlined" id="arrow">expand_more</span>
+            <select name="filter" class="filter-todos">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+        </div>
+        
+        <!-- add todo -->
+        <form>
+            <input type="text" class="todo-input input" placeholder="add todo">
+            <button class="submit-btn btn" type="submit">
+                <span class="material-icons-outlined">add_box</span>
+            </button>
+        </form>
+        
+        <!-- search -->
+        <div class="search-section">
+            <input type="text" class="search-input input" id="search-box" placeholder="search" onkeyup="search()">
+            <button class="search btn" onclick="expand()">
+                <span class="material-icons-outlined">search</span>
+            </button>
+        </div>
+       
+        <!-- delete -->
+        <button class="delete-all btn" onclick="deleteAll()">
+            <span class="material-icons-outlined">delete_sweep</span>
+        </button>
+    </div>
+    
+    <!-- todos-list -->
+    <div class="list">
+        <ul class="todo-list"></ul>
+        <!-- <div class="todo">
+                <span class="material-icons-outlined tick">task_alt</span>
+                <li class="todo-content">content</li>
+                <button class="check-btn btn">checked</button>
+                <button class="delete-btn btn">delete</button>
+        </div> -->
+    </div>
+    <script src="./res/app.js"></script>
+</body>
+
+</html>
