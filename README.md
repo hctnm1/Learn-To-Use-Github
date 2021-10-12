@@ -42,7 +42,8 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
-| _Your Name_                                            | _Intrests_               |
+| Manas Buchade                                         | Python, Front-end Web Dev |
+| _Your Name_                                           | _Interests_               |
  
 
 ### For the README.md file, only the PRs involving changes to the Contributors table would be accepted.
