@@ -43,7 +43,7 @@
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
 | _Your Name_                                            | _Intrests_               |
- 
+| Aman Sachan                                            | Web Developer            |   
 
 ### For the README.md file, only the PRs involving changes to the Contributors table would be accepted.
 
