@@ -12,6 +12,7 @@
 
 | Contributors                                           | Interests                |
 | ------------------------------------------------------ | ------------------------ |
+| Ishani Samanta                                         | Web Development
 | Ze Falcon                                              | Cybersecurity            |
 | Roshan                                                 |programming, cybersecurity|
 | CrazyYoungBroo                                         |Programming               |
