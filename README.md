@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| Arbab Khan                                             | Fullstack Developer      |
 | _Your Name_                                            | _Intrests_               |
  
 
