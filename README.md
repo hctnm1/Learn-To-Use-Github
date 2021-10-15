@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| Adarsh Reddy                                           | Web Developer,Programming,JS|
 | _Your Name_                                            | _Intrests_               |
  
 
