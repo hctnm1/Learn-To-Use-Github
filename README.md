@@ -41,8 +41,9 @@
 | Md. Almas Ali                                          | Web Developer            |
 | Coding-Boon                                            | Learn Python             |
 | Narayan Soni                                           | Web Developer            |
-| _Your Name Here_                                       | _What do you love?_      |
-
+| Deepanshu Mittal                                       | Python                   |            
+| Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| _Your Name_                                            | _Interests_              |
  
 
 ### For the README.md file, only the PRs involving changes to the Contributors table would be accepted.
