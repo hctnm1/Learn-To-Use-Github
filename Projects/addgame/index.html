@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+        }
+        td{
+            width:50px;
+            height:50px;
+            background-color:  rgba(134, 139, 142,0.6) ;
+            
+            text-align:center;
+            padding:30px;
+        }
+        table{
+             
+            margin:auto;
+        }
+        .btn{
+            margin:auto;
+        }
+        body{
+            
+             background-image: url('https://images.pexels.com/photos/316681/pexels-photo-316681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); 
+             
+           background-size: 100%;
+           background-color: black;
+            font-size:2rem;
+            color:white;
+            font-family: 'Andada Pro', serif;
+          
+    
+        }
+        h3,p{
+            line-height: 1.9em;
+        }
+        input{
+            
+                        /* border: none;
+            border-bottom-style: solid;
+            border-bottom-width: 3px;
+            border-color:black; */
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: groove;
+            
+            width:70%;
+            font-size:1.5rem;
+            background-color:  rgba(134, 139, 142,0.6) ;
+            color:white;
+            font-family: 'Andada Pro', serif;
+        } 
+      
+        .no-outline:focus {
+  outline: none;
+}
+     
+  
+        
+ 
+        .main{
+            /* width:50%; */
+            padding-top: 150px;
+             margin:auto;
+             text-align: center;
+        }
+         .btn{
+             font-size:1.2rem;
+              background-color:  rgba(134, 139, 142,0.6) ;
+             border: none; color:white;
+             font-family: 'Andada Pro', serif;
+             border-radius: 10%;
+         }
+         button:hover{
+            background-color:#fff;
+            color:black;
+              
+         }
+         .last{
+             width:100px;
+         }
+         
+         /* pop ups */
+         .modal{
+                 background-image:url('https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+                background-size:100%;
+                height:150px;
+                width:300px;
+                margin:auto;
+                border-radius:5%;
+                color:white;
+                box-shadow: 0 0 3px 0 black;
+                text-align:center;
+                font-size:3rem;
+                position: absolute;
+                top:10%;
+                left:3%;
+                display:none;
+               
+
+
+                          }
+        .modal-body{
+                padding:8%;
+                } 
+                .modal-1{
+                 background-image:url('https://images.pexels.com/photos/3414766/pexels-photo-3414766.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+                background-size:100%;
+                height:150px;
+                width:300px;
+                margin:auto;
+                border-radius:5%;
+                color:white;
+                box-shadow: 0 0 3px 0 black;
+                text-align:center;
+                font-size:4rem;
+                position: absolute;
+                top:10%;
+                right:3%;
+                display:none;
+               
+
+
+                          }
+        .modal-body-1{
+                padding:8%;
+                }
+            @media (max-width:800px){
+                td{
+                    width:50px;
+                    height:50px;
+                
+                    padding:10px;
+                }
+                body{
+                    font-size:1.2em;
+                }
+                .modal{
+                    height:100px;
+                    width:200px;
+                    font-size:2rem;
+                    top:3%;
+                }
+                .modal-1{
+                    height:100px;
+                    width:200px;
+                    font-size:2rem;
+                    top:3%;
+                }
+                .modal-body{
+                padding:4%;
+                }
+                .modal-body-1{
+                padding:4%;
+                }
+
+
+            }
+
+    </style>
+     
+</head>
+<body>
+    <div class="main">
+        <h3>highest Score:<span id="H_score">0</span></h3>
+        <p>your score:<span id="score">0</span></p>
+        <table>
+            <tr>
+                <td>
+                    <div id="firstN">first</div>
+                </td>
+                <td>
+                     +
+                </td>
+                <td>
+                    <div id="secN">first</div>
+                </td>
+                <td class="last">
+                    <input type="number" class="no-outline" id="name" />
+                    <br><br>
+                <button  id="btn" class="btn"  >Check </button>
+
+                </td>
+            </tr>
+             
+        </table>
+         
+    </div>
+
+   
+    <!-- pops -->
+    <div class="modal">
+ 
+        <div class="modal-body">
+           new high score
+        </div>
+        
+        
+      </div>
+      <div class="modal-1">
+ 
+        <div class="modal-body-1">
+            you lost
+        </div>
+        
+        
+      </div> 
+     
+</body>
+<script >
+         
+    var first ;
+    var sec ;
+    var ans;
+    var vali;
+    var val;
+    var max=0;
+    var i=0;
+
+
+    first = Math.floor(100*Math.random());
+    sec= Math.floor(100*Math.random());
+     
+    document.getElementById('firstN').innerHTML =  " ";
+    document.getElementById('secN').innerHTML= " ";
+    document.getElementById('firstN').innerHTML =  first;
+    document.getElementById('secN').innerHTML= sec;
+    ans = first+sec;
+    vali = document.querySelector('input[type=number]');
+
+
+    
+   
+   document.getElementById('btn').onclick=  function (){
+        val= vali.value;
+        // alert("hey");
+        // alert(val);
+   
+        
+        if(ans==val){
+        //    alert('you win');
+            i+=10;
+            document.getElementById('score').innerHTML = i;
+            var y =document.getElementById('score').innerHTML;
+            document.getElementsByClassName('modal')[0].style.display="none";
+            document.getElementsByClassName('modal-1')[0].style.display="none";
+            // alert(y);
+            if(max<y){
+                max=y;
+                document.getElementById("H_score").innerHTML=max;
+                
+                document.getElementsByClassName('modal')[0].style.display="block";
+            
+            
+            }
+
+        }
+        else {
+            
+            i=0;
+            document.getElementById('score').innerHTML = i;
+            document.getElementsByClassName('modal-1')[0].style.display="block";
+            document.getElementsByClassName('modal')[0].style.display="none";
+
+            // alert('you lose');
+        }
+     
+        document.querySelector('input[type=number]').value = "";
+        first = Math.floor(100*Math.random());
+        sec= Math.floor(100*Math.random());
+     
+    document.getElementById('firstN').innerHTML =  " ";
+    document.getElementById('secN').innerHTML= " ";
+    document.getElementById('firstN').innerHTML =  first;
+    document.getElementById('secN').innerHTML= sec;
+    ans = first+sec;
+
+     
+
+
+    }
+
+</script>
+</html>
