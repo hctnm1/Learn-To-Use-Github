@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| Lazy Dino                                               | Cybersecurity, Web |
 | _Your Name_                                            | _Intrests_               |
  
 
