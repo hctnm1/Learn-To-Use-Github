@@ -1,0 +1,166 @@
+
+@keyframes bounce{
+    0%,20%, 60%,100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px); 
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px); 
+    }
+}
+
+.btns{
+text-align: center;
+margin-top: 50px;
+}
+ 
+.efeito{
+    border: 0;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px; /*Altura da linha*/
+    border-radius: 10px;
+    position:relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito-1{
+    background-color: #283888;
+}
+
+.efeito-1::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 64px;
+    background-color: rgba(225, 255, 255, 0.3);
+    transition: all 2s ease;
+}
+
+.efeito-1:hover:before{
+    width: 100%;
+}
+
+.efeito-2{
+    background-color: #1d8d30;
+}
+
+.efeito-2::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100% ;
+    height: 0;
+    background-color: rgba(225, 255, 255, 0.3);
+    transition: all 2s ease;
+}
+
+.efeito-2:hover:before{
+    height: 64px;
+}
+
+
+.efeito-3{
+    background-color: #dbbd10;
+} 
+
+.efeito-3:hover{
+    background: rgb(0,0,0,0);
+    color:#dbbd10 ;
+    box-shadow: inset 0 0 0 3px #dbbd10;
+}
+
+.efeito-4{
+    background: rgb(255, 4, 4);
+}
+
+.efeito-4:hover{
+    animation: bounce 1s;
+}
+.efeito-5{
+    background-color: coral;
+}
+
+ .efeito-5:hover{
+     transform: skew(-10deg);
+ }
+
+ .efeito-6{
+     background-color: crimson;
+     transform-style: preserve-3d;
+ }
+
+ .efeito-6:after{
+top: -100%;
+left: 0px;
+width: 100%;
+padding: 20px;
+position: absolute;
+background-color: greenyellow;
+border-radius: 10px;
+box-sizing: border-box; /*Se não ele soma o padding ao tamanho da borda*/
+content: 'Mudou';
+transform-origin: left bottom;
+transform: rotateX(90deg);
+}
+
+.efeito-6:hover{
+   transform-origin: center bottom;
+   transform: rotateX(-90deg) translateY(100%); 
+}
+
+.efeito-7{
+    background-color: rgb(0, 183, 255);
+}
+.efeito-7:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.efeito-8{
+    background-color: rgb(250, 0, 175);
+}
+.efeito-8:hover::after{
+    content:" Texto Extra";
+    font-size:20px;
+}
+
+
+
+.efeito-9{
+    
+	-webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+}
+
+.efeito-9:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.efeito-10 {
+   
+    border-color: #1abc9c;
+    color: #fff;
+    background-image: -webkit-linear-gradient(left, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-position: 0 0;
+    background-size: 100%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .efeito-10:hover {
+    background-position: 100px;
+  }
