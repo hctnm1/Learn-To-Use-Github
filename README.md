@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| Aman Ladla                                             | Web Developer and Flutter App Developer |
 | _Your Name_                                            | _Intrests_               |
  
 
