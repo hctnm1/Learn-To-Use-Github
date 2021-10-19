@@ -10,40 +10,40 @@
 
 ## Add your information creating a new row above the last row in the table below!
 
-| Contributors                                           | Interests                |
-| ------------------------------------------------------ | ------------------------ |
-| Ze Falcon                                              | Cybersecurity            |
-| Roshan                                                 |programming, cybersecurity|
-| CrazyYoungBroo                                         |Programming               |
-| Prometheus                                             |Programming               |
-| John Henry                                             |Programming               |
-| Arizki Putra Rahman                                    |Web Developer             |
-| HCTN 03                                                |Programming               |
-| Dhruv Deora                                            | Web Developer,ML/AI      |
-| Plankton                                               | Cybersecurity            |
-| Huda Damar                                             | Frontend Web Programming |
-| Faiz Nurullah                                          | Web Developer            |
-| Prashant Ved                                           | Web Development          |
-| Kaustuv Chattopadhyay                                  | Competetitive Programming|
-| Namrutha Hari                                          | Fullstack Developer      |
-| Danar Putra                                 | Web Developer and Android Developer |
-| Jagadeesh                                              | Web Developer            |
-| Sagnik Chatterjee                               | Web dev,Programming,Data Science|
-| HCTN 02                                                | Web Developer            |
-| Pratik Jangale                                         | programming              |
-| Bil Abror                                              | Backend Developer        |
-| Hemant Fegade                                          | programming              |
-| Nethra Hari                                            | Python                   |
-| Shaman Siddique                                        | Web Devloper             |
-| Karan Heer                                             | Music                    |
-| Ridam Hazra                                            | Data Analysis            |    
-| Payoja Muduli                                          | Web Developer            |
-| Md. Almas Ali                                          | Web Developer            |
-| Coding-Boon                                            | Learn Python             |
-| Deepanshu Mittal                                       | Python                   |            
-| Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
-| _Your Name_                                            | _Intrests_               |
- 
+| Contributors          | Interests                                   |
+| --------------------- | ------------------------------------------- |
+| Ze Falcon             | Cybersecurity                               |
+| Roshan                | programming, cybersecurity                  |
+| CrazyYoungBroo        | Programming                                 |
+| Prometheus            | Programming                                 |
+| John Henry            | Programming                                 |
+| Arizki Putra Rahman   | Web Developer                               |
+| HCTN 03               | Programming                                 |
+| Dhruv Deora           | Web Developer,ML/AI                         |
+| Plankton              | Cybersecurity                               |
+| Huda Damar            | Frontend Web Programming                    |
+| Faiz Nurullah         | Web Developer                               |
+| Prashant Ved          | Web Development                             |
+| Kaustuv Chattopadhyay | Competetitive Programming                   |
+| Namrutha Hari         | Fullstack Developer                         |
+| Danar Putra           | Web Developer and Android Developer         |
+| Jagadeesh             | Web Developer                               |
+| Sagnik Chatterjee     | Web dev,Programming,Data Science            |
+| HCTN 02               | Web Developer                               |
+| Pratik Jangale        | programming                                 |
+| Bil Abror             | Backend Developer                           |
+| Hemant Fegade         | programming                                 |
+| Nethra Hari           | Python                                      |
+| Shaman Siddique       | Web Devloper                                |
+| Karan Heer            | Music                                       |
+| Ridam Hazra           | Data Analysis                               |
+| Payoja Muduli         | Web Developer                               |
+| Md. Almas Ali         | Web Developer                               |
+| Coding-Boon           | Learn Python                                |
+| Deepanshu Mittal      | Python                                      |
+| Banshaj Paudel        | Cybersecurity, IoT, Programming, Automation |
+| Nauman                | Programming                                 |
+| _Your Name_           | _Interests_                                 |
 
 ### For the README.md file, only the PRs involving changes to the Contributors table would be accepted.
 
