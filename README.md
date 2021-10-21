@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| [Sc0rp10n.py](https://github.com/sc0rp10n-py)			 | Aerospace, AI/ML, Web Dev|
 | _Your Name_                                            | _Intrests_               |
  
 
