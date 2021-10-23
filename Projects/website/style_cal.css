@@ -1,0 +1,184 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: black;
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR56EnyRe9zwzx6uTFjw_MxPHwPRPZSQN5umNjbduSNYll5uV6SVEe4OBYEdOenvDOEl5s&usqp=CAU);
+	margin: 20px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty{
+	background-color: #eaedef;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}
+#show{
+	display:inline-block;
+    padding:0.625rem 1.875rem;
+    line-height:1.5625rem;
+	background-color:#A82C48;
+     border: 0.1875rem solid #A82C48;
+  color: white;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize; box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%); -webkit-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s; padding: 10px; margin-left: 20px;
+}
+
+@media (max-width:991px){
+
+	/* nav {
+        height:150%;
+        width: 100%;  
+    } */
+    #imgt{
+        height:200px;
+        width:300px;
+    }
+	#calculator{
+		width: 320px;
+	    height: 520px;
+	}
+	/* .newcont{
+		width:200%;
+		height:200%;
+	} */
+	/* #heading{
+		height:65px;
+		width:1005;
+		font-size: 15px;
+		color:black;
+	} */
+}
+
+/* #headingg {
+	text-align:center;
+	background:#A82C48;
+	color:rgb(255, 255, 255);
+	font-family:'Roboto';
+	font-weight:500;
+	font-size:30px;
+	padding-top:4vh;
+	height:73px;
+	width: 100px;
+	overflow:hidden;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-webkit-transform: translate3d(0,0,0);
+  }
+  
+  #headingg {
+	display:inline-block;
+	overflow:hidden;
+	white-space:nowrap;
+  }
+  
+  #headingg:first-of-type {    /* For increasing performance 
+						 ID/Class should've been used. 
+						 For a small demo 
+						 it's okaish for now */
+	/* animation: showup 7s infinite;
+  }
+  
+  #headingg:last-of-type {
+	width:0px;
+	animation: reveal 7s infinite;
+  }
+  
+  #headingg:last-of-type span {
+	margin-left:-355px;
+	animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+	  0% {opacity:0;}
+	  20% {opacity:1;}
+	  80% {opacity:1;}
+	  100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+	  0% { margin-left:-800px; }
+	  20% { margin-left:-800px; }
+	  35% { margin-left:0px; }
+	  100% { margin-left:0px; }
+  }
+  
+  @keyframes reveal {
+	  0% {opacity:0;width:0px;}
+	  20% {opacity:1;width:0px;}
+	  30% {width:222px;}
+	  80% {opacity:1;}
+	  100% {opacity:0;width:220px;}
+  }
+    */
