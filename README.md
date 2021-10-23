@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| Saloni Dwivedi                                         | Web Development, Python  |
 | _Your Name_                                            | _Intrests_               |
  
 
