@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| Muhammad David Ismail MS                               | Fullstack Developer      |
 | _Your Name_                                            | _Intrests_               |
  
 
