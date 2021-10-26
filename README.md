@@ -42,7 +42,8 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
-| Yash Bhosale                                           | Web devloper, C++, Python|
+| Yash Bhosale                                        | Python, C++, Web Development| 
+| _Your Name_                                            | _Intrests_               |
  
 
 ### For the README.md file, only the PRs involving changes to the Contributors table would be accepted.
