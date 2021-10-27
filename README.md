@@ -42,6 +42,7 @@
 | Coding-Boon                                            | Learn Python             |
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
+| WARO                                    | Cybersecurity, Web Dev., Python, Gaming |
 | _Your Name_                                            | _Intrests_               |
  
 
