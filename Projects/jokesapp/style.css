@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
   }
 
   a {
@@ -17,11 +17,13 @@
     outline: none;
     border: none;
     color: #fff;
-    background-color: blue; /* default color */
+    background-color: peachpuff; /* default color */
   }
 
   .btn:hover {
-    cursor: pointer; /* hand symbol */
+    cursor: pointer; /* hand 
+    backsymbol */
+    background-color: purple;
   }
 
   /* body */
@@ -29,7 +31,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: #6B2A7E;
+    background-color:  #e2d0bc;
     font-family: sans-serif;
     display: flex;
     justify-content: center; /* horizontally center */
@@ -48,7 +50,7 @@
   /* h1 */
   h1 {
     font-size: 1.1rem;
-    color: #888;
+    color: tomato;
     margin-bottom: 20px;
     text-decoration: underline;
   }
