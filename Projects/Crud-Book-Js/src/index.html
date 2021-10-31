@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dicoding Books</title>
+    <title>Decoding Books</title>
+    <style>
+        button{
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 <header>
     <nav class="navbar navbar-dark bg-primary">
-        <span class="navbar-brand mb-0 h1">Dicoding Books</span>
+        <span class="navbar-brand mb-0 h1"><h2><u>Decoding Books</u> </h2></span>
     </nav>
 </header>
 <main class="container">
@@ -20,17 +25,17 @@
                 </div>
                 <div class="card-body">
                     <div class="form-group">
-                        <label for="inputBookId">ID Buku</label>
+                        <label for="inputBookId">ID Buku:</label>
                         <input id="inputBookId" type="number" class="form-control" placeholder="ID Buku">
-                    </div>
+                    </div><br>
                     <div class="form-group">
-                        <label for="inputBookTitle">Judul Buku</label>
+                        <label for="inputBookTitle">Judul Buku:</label>
                         <input id="inputBookTitle" type="text" class="form-control" placeholder="Judul Buku">
-                    </div>
+                    </div><br>
                     <div class="form-group">
-                        <label for="inputBookAuthor">Pengarang</label>
+                        <label for="inputBookAuthor">Pengarang:</label>
                         <input id="inputBookAuthor" type="text" class="form-control" placeholder="Pengarang">
-                    </div>
+                    </div><br>
                     <div class="form-group">
                         <button id="buttonSave" class="btn btn-success">Save</button>
                         <button id="buttonUpdate" class="btn btn-primary">Update</button>
