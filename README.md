@@ -43,6 +43,7 @@
 | Deepanshu Mittal                                       | Python                   |            
 | Banshaj Paudel                      | Cybersecurity, IoT, Programming, Automation |
 | Bibek                                                  | Web Dev                  |
+| 0angelic0                                              | Architecture             |
 | _Your Name_                                            | _Intrests_               |
  
 
