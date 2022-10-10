@@ -1,5 +1,0 @@
-labels:
-  approved: 
-    action: merge
-  'hacktoberfest-accepted':
-    action: merge
