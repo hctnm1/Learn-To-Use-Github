@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nabin Bhatt</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {box-sizing: border-box;}
+            body, html {
+                height: 100%;
+                margin: 0;
+                font-family: Arial;
+                background: repeating-linear-gradient(
+                    #333,
+                    #00ff00,
+                    #ee3333
+                );
+            }
+            .tablink {
+                background-color: #555;
+                color: white;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                font-size: 17px;
+                width: 25%;
+            }
+            .tablink:hover {
+                background-color: #777;
+            }
+            .tabcontent {
+                color: white;
+                display: none;
+                padding: 100px 20px;
+                height: 100%;
+            }
+            #home {background-color: red;}
+            #news {background-color: green;}
+            #contact {background-color: blue;}
+            #about {background-color: orange;}
+
+            /* Fixed Social Bar */
+            .icon-bar {
+                position: fixed;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+            .icon-bar a {
+                display: block;
+                text-align: center;
+                padding: 16px;
+                transition: all 0.3s ease;
+                color: white;
+                font-size: 20px;
+            }
+            .icon-bar a:hover {
+                background-color: #000;
+            }
+            .facebook, .icon1 {
+                background: #3b5998;
+                color: white;
+            }
+            .twitter, .icon2 {
+                background: #55acee;
+                color: white;
+            }
+            .instagram, .icon3 {
+                background: #8f2727;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="tablink" onclick="openPage('home', this, 'red')">Home</button>
+        <button class="tablink" onclick="openPage('news', this, 'green')">News</button>
+        <button class="tablink" onclick="openPage('contact', this, 'blue')">Contact</button>
+        <button class="tablink" onclick="openPage('about', this, 'orange')">About</button>
+
+        <div id="home" class="tabcontent">
+            <h3>Home</h3>
+            <p>Home is where the heart is...</p>
+        </div>
+
+        <div id="news" class="tabcontent">
+            <h3>News</h3>
+            <p>Some news this fine day!</p>
+        </div>
+
+        <div id="contact" class="tabcontent">
+            <h3>Contact</h3>
+            <p>Get in touch, or swing by for a cup of coffee.</p>
+        </div>
+
+        <div id="about" class="tabcontent">
+            <h3>About</h3>
+            <p>Who we are and what we do.</p>
+        </div>
+
+        <!-- Fixed social bar -->
+        <div class="icon-bar">
+            <a class="icon1" href="https://www.facebook.com/thenabinbhatt"><i class="fa fa-facebook"></i></a>
+            <a class="icon2" href="https://www.twitter.com/thenabinbhatt"><i class="fa fa-twitter"></i></a>
+            <a class="icon3" href="https://www.instagram.com/thenabinbhatt"><i class="fa fa-instagram"></i></a>
+        </div>
+        <!-- End social bar -->
+
+        <script>
+            function openPage(pageName, elmnt, color) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = "";
+                }
+
+                document.getElementById(pageName).style.display = "block";
+                elmnt.style.backgroundColor = color;
+            }
+
+            document.getElementById("defaultOpen").click();
+        </script>
+    </body>
+</html>
