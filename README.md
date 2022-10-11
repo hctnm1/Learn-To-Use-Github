@@ -45,6 +45,7 @@
 | Bibek                                                  | Web Dev                  |
 | Holdee                                                 | Python                   |
 | Chidambaram Sathappan                                  | Web Development          |
+| Aditya Oza                                             | Backend Developer        |
 | _Your Name_                                            | _Intrests_               |
  
 
