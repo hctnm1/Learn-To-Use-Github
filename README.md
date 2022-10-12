@@ -46,6 +46,7 @@
 | Holdee                                                 | Python                   |
 | Chidambaram Sathappan                                  | Web Development          |
 | Aditya Oza                                             | Backend Developer        |
+| Piyush Mohite                                          | Web Development          |
 | _Your Name_                                            | _Intrests_               |
  
 
