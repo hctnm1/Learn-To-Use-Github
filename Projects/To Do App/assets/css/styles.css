@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+body {
+	background-color: #FFFFFF;
+	color: #7689de;
+}
+
+main {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2rem;
+}
+
+main h1 {
+	font-size: 2.5rem;
+	text-transform: capitalize;
+	margin-bottom: 0.5rem;
+}
+
+main h1 ~ p {
+	margin-bottom: 2rem;
+}
+
+main .create {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 480px;
+}
+
+main .create input {
+	appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #27272A;
+	background-color: transparent;
+	color: #27272A;
+	font-size: 1.25rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin: 0;
+	transition: 0.4s;
+}
+
+main .create input:focus {
+	border-bottom-color: #7689DE;
+}
+
+main .create button {
+	border: none;
+	outline: none;
+	background-color: #E5E9F8;
+	font-weight: bold;
+	color: #7689DE;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+	margin-left: 0.5rem;
+	cursor: pointer;
+}
+
+main .value {
+	width: 100%;
+	max-width: 480px;
+	margin-top: 2rem;
+}
+
+main .value .task {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #F8F9FD;
+	padding: 1rem;
+	border-radius: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+main .value .task .buttons {
+	min-width: fit-content;
+}
+
+main .value .task button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background-color: #FFF5C7;
+	color: #CC8100;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem;
+	margin-left: 0.5rem;
+	cursor: pointer;
+}
+main .value .task.is-complete button {
+  background-color: #D7FAE0;
+  color: #36B509;
+}
+
+main .value .task button.clear {
+	background-color: #FFE4E6;
+	color: #FF424F;
+}
+
+.value .task.is-complete .content {
+	text-decoration: line-through;
+}
