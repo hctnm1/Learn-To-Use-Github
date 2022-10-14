@@ -47,6 +47,7 @@
 | Chidambaram Sathappan                                  | Web Development          |
 | Aditya Oza                                             | Backend Developer        |
 | Piyush Mohite                                          | Web Development          |
+| Reza Alfian                                            | Data Science             |
 | _Your Name_                                            | _Intrests_               |
  
 
